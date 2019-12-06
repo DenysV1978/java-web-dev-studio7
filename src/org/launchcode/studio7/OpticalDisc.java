@@ -17,11 +17,9 @@ public interface OpticalDisc {
         return "bla bla bla"
     }
 
-    public static String fallOnTheGround() {
+    public static String fallOnTheGround() { //this method will be applied to all three classes: CD, DVD, car wheel...
         return "boooooom...";
     }
-
-
 
 
 
