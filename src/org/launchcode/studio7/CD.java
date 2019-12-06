@@ -1,6 +1,11 @@
 package org.launchcode.studio7;
 
-public class CD {
+public class CD implements OpticalDisc {
+    @Override
+    public void spinDisc() {
+        return 0;
+    }
+
 
     // TODO: Implement your custom interface.
 
