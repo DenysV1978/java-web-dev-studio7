@@ -6,13 +6,13 @@ public class CD extends BaseDisc implements OpticalDisc {
     String nameOfCd; // here I will give the name of CD, kind of Scorpions and os on...
 
     public CD(String nameOfCd, String name, String typeOfData, boolean couldBeReadByLaser, boolean couldBeWrittenByLaser, ArrayList<String> data) {
-        super.(name, typeOfData, couldBeReadByLaser, couldBeWrittenByLaser, data);
+        super(name, typeOfData, couldBeReadByLaser, couldBeWrittenByLaser, data);
         this.nameOfCd = nameOfCd;
 
     }
 
     public CD(String name, String typeOfData, boolean couldBeReadByLaser, boolean couldBeWrittenByLaser, ArrayList<String> data) {
-        super.(String name, String typeOfData, boolean couldBeReadByLaser, boolean couldBeWrittenByLaser, ArrayList<String> data);
+        super(String name, String typeOfData, boolean couldBeReadByLaser, boolean couldBeWrittenByLaser, ArrayList<String> data);
         this.nameOfCd = "Music";
     }
 
