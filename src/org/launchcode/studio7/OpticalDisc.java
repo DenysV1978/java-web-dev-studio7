@@ -14,7 +14,7 @@ public interface OpticalDisc {
     public default String justFun() { //this method should not be posted here, because these methods (default) should be posted
         //in interfaces only when we NEED to add some method to classes without adding them specifically in classes but can just add them here anf
         //they will show up in classes by been implemented
-        return "bla bla bla"
+        return "bla bla bla";
     }
 
     public static String fallOnTheGround() { //this method will be applied to all three classes: CD, DVD, car wheel...

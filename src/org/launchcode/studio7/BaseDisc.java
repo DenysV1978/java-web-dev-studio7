@@ -13,7 +13,7 @@ public abstract class BaseDisc {
     // constructor
 
     public BaseDisc(String name, String typeOfData, boolean couldBeReadByLaser, boolean couldBeWrittenByLaser, ArrayList<String> data) {
-        this.name = name;
+        this.name = name; //this is will be CD1, CD2, and so on... this is just studio....
         this.typeOfData = typeOfData;
         this.couldBeReadByLaser = couldBeReadByLaser;
         this.couldBeWrittenByLaser = couldBeWrittenByLaser;
@@ -67,7 +67,7 @@ public abstract class BaseDisc {
     public abstract void putInPlayer(); //I assign both CD and DVD to apply this method and this method will be "opened"
     // in both classes differently
 
-    public String recycle() { //I have this method to use for both CD and DVD. It will not be overridden
+    public void recycle() { //I have this method to use for both CD and DVD. It will not be overridden
         System.out.println("Disc is recycled as plastic");
     }
 
