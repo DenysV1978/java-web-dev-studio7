@@ -13,7 +13,7 @@ public interface OpticalDisc {
 
     public default String justFun() { //this method should not be posted here, because these methods (default) should be posted
         //in interfaces only when we NEED to add some method to classes without adding them specifically in classes but can just add them here anf
-        //they will show up in classes by been implemented
+        //they will show up in classes by been implemented. Also this method does not have to be overridden
         return "bla bla bla";
     }
 
